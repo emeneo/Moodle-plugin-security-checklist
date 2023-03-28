@@ -1,3 +1,4 @@
+https://docs.moodle.org/dev/Security:Cross-site_request_forgery#Session_key
 https://docs.moodle.org/dev/Plugin_contribution_checklist#Security
 
 Never trust the user input.
