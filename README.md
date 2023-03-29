@@ -23,5 +23,9 @@ Sanitize user's input
 You should never need to access superglobals $_GET, $_POST and $_COOKIE directly. Moodle provides wrappers for getting HTTP parameters - such as optional_param() and required_param(). Make sure you pick the most specific PARAM type for each of the parameters.
 
 
-
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
 
