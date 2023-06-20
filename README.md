@@ -1,8 +1,15 @@
-| No. | Description                                                       | Reference                 | OK |
-| --- | ------------------------------------------------------------------| ------------------------- | -- |
-| 001 | Use security checklist                                            | https://github.com/emeneo/Moodle-Plugin-Security-Checklist                          | :white_check_mark: |
+| No. | Description                                                       | Reference                 | Status |
+| --- | ------------------------------------------------------------------| ------------------------- | ------ |
+| 001 | Use security checklist                                            | https://github.com/emeneo/Moodle-Plugin-Security-Checklist | :white_check_mark: |
 | 002 | Do not access superglobals like $_REQUEST directly. Usee wrappers like required_param() with correct type declared to sanitize input.                                         |  |:black_square_button:|
-| 003 | Always use placeholders in custom SQL queries (? or :named)                                  |:black_square_button:|
+| 003 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
+| 004 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
+| 005 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
+| 007 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
+| 008 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
+| 009 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
+| 010 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
+
 
 https://docs.moodle.org/dev/Security:Cross-site_request_forgery#Session_key
 https://docs.moodle.org/dev/Plugin_contribution_checklist#Security
