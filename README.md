@@ -1,6 +1,7 @@
+
 | No. | Description                                                       | Reference                 | Status |
 | --- | ------------------------------------------------------------------| ------------------------- | ------ |
-| 001 | Use security checklist                                            | https://github.com/emeneo/Moodle-Plugin-Security-Checklist | :white_check_mark: |
+| 001 | Use latest security checklist                                            | https://github.com/emeneo/Moodle-Plugin-Security-Checklist |  :black_square_button:|
 | 002 | Do not access superglobals like $_REQUEST directly. Usee wrappers like required_param() with correct type declared to sanitize input.                                         |  |:black_square_button:|
 | 003 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
 | 004 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
@@ -9,6 +10,10 @@
 | 008 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
 | 009 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
 | 010 | Always use placeholders in custom SQL queries (? or :named)       |                           |:black_square_button:|
+
+:black_square_button: Not checked yet
+:white_check_mark: checked
+
 
 
 https://docs.moodle.org/dev/Security:Cross-site_request_forgery#Session_key
