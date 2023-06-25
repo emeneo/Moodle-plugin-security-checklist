@@ -16,14 +16,11 @@
 
 
 
+TO TO (ADD to list):
+
 https://docs.moodle.org/dev/Security:Cross-site_request_forgery#Session_key
 https://docs.moodle.org/dev/Plugin_contribution_checklist#Security
 .
-
-
-
-
-
 
 From https://moodle.org/mod/forum/discuss.php?d=263614#p1142448 :
 
@@ -37,5 +34,11 @@ Sanitize user's input
 
 You should never need to access superglobals $_GET, $_POST and $_COOKIE directly. Moodle provides wrappers for getting HTTP parameters - such as optional_param() and required_param(). Make sure you pick the most specific PARAM type for each of the parameters.
 
+Do not require outdated plugins (in config)
 
+---
 
+Prevent direct access of plugin folders (e.g trigger a re-direct)  Moodle org forum post https://moodle.org/mod/forum/discuss.php?d=448033#p1800531
+
+---
+do not include third party libraries which are already provided by moodle in the plugin package (e.g Jquerzy)
