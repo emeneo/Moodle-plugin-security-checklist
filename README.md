@@ -33,4 +33,4 @@ https://moodle.org/mod/forum/discuss.php?d=263614#p1142448 :
 Prevent direct access of plugin folders (e.g trigger a re-direct)  Moodle org forum post https://moodle.org/mod/forum/discuss.php?d=448033#p1800531
 
 ---
-
+never put any passwords etc. into the code
