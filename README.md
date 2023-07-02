@@ -19,7 +19,7 @@ Moodle plugin security checklist
 | 010 | GET requests should be used for getting information. So, for example, viewing a user's profile should be a GET request.POST requests should be used for changing things in the application. For example deleting a user should be a POST request.        |  [Security guidelines](https://docs.moodle.org/dev/Security:Cross-site_request_forgery#Use_HTTP_correctly)|⬜|
 | 011 | Never display the Sesskey in the browser url bar or similar| [Secuirty guidelines](https://docs.moodle.org/dev/Security:Cross-site_request_forgery#Use_HTTP_correctly) |⬜|
 | 012| Do not require outdated / insecure moodle plugins |  |⬜|
-| 013| Do not include third party library code in your plugin package which ist already provided by moodle core (e.g jQuery) |[Moodle thrid party libraries](https://moodledev.io/general/community/credits/thirdpartylibs)  |⬜|
+| 013| Do not include third party library code in your plugin package which are already provided by moodle core (e.g jQuery) |[Moodle thrid party libraries](https://moodledev.io/general/community/credits/thirdpartylibs)  |⬜|
 | 014| Keep included third party libraries up to date|  |⬜|
 | 015| Never put any passwords etc. into the code/ comments|  |⬜|
 
