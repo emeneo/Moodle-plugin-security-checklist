@@ -1,3 +1,9 @@
+Moodle plugin security checklist
+================================
+```
+⬜ Not checked yet     ✅ checked
+```
+
 
 | No. | Description                                                       | Reference                 | Status |
 | --- | ------------------------------------------------------------------| ------------------------- | ------ |
@@ -17,6 +23,5 @@
 | 014| Keep included third party libraries up to date|  |⬜|
 | 015| Never put any passwords etc. into the code/ comments|  |⬜|
 
-⬜ Not checked yet
-✅ checked
+
 
